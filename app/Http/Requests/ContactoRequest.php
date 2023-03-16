@@ -26,10 +26,9 @@ class ContactoRequest extends FormRequest
         return [
             //
             'email' => 'required|email',
-            'name' => 'required|string'
+            'name' => 'required|string',
             'message' => 'required',
             'country' => 'required',
-            'state' => 'required',
             'state' => 'required'
         ];
     }
