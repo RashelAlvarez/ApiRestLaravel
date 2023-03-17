@@ -20,5 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::resource('articulo', App\Http\Controllers\ArticuloController::class)->only(['index', 'store', 'update', 'show', 'destroy']);
 
-Route::resource('contacto', App\Http\Controllers\ContactoController::class)->only([ 'store']);
+Route::resource('contacto', App\Http\Controllers\ContactoController::class)->only([ 'index','store']);
 
