@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Contacto;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\MensajeRecibido;
+use App\Mail\EmailSend;
 use App\Http\Requests\ContactoRequest;
 
 class ContactoController extends Controller
@@ -51,11 +52,10 @@ class ContactoController extends Controller
         $contacto=Contacto::create($request->all());
         //dd($contacto);
         Mail::to('rashelalvarez21@gmail.com')->send(new MensajeRecibido($request));
+        Mail::to($request->email)->send(new EmailSend($request));
         return response()->json(['contacto'=>$contacto]);
-       
-       // return response()->json(['contacto'=>$contacto]);
-        /*   return $request->all();  */
-        // return back()->with('info', 'Tu mensaje ha sido enviado correctamente');
+        
+
     }
 
    
