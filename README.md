@@ -8,15 +8,15 @@
 </p>
 
 
-<p>Para probar la api desde postman utilizar las siguientes rutas
-GET, POST
-    https://apirestlaravel-production.up.railway.app/api/contacto
-    https://apirestlaravel-production.up.railway.app/api/articulo
-GET (obtener por id)
-    https://apirestlaravel-production.up.railway.app/api/articulo/{id}
-PUT
-     https://apirestlaravel-production.up.railway.app/api/articulo/{id}
-</p>
+<p>Para probar la api desde postman utilizar las siguientes rutas</p>
+<p>GET, POST</p>
+ <p>   https://apirestlaravel-production.up.railway.app/api/contacto</p>
+ <p>    https://apirestlaravel-production.up.railway.app/api/articulo</p>
+<p> GET (obtener por id)</p>
+  <p>   https://apirestlaravel-production.up.railway.app/api/articulo/{id}</p>
+<p> PUT</p>
+   <p>   https://apirestlaravel-production.up.railway.app/api/articulo/{id}</p>
+
     
 
 ## About Laravel
