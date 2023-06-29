@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+Para probar la api desde postman utilizar las siguientes rutas
+GET, POST
+    https://apirestlaravel-production.up.railway.app/api/contacto
+    https://apirestlaravel-production.up.railway.app/api/articulo
+GET (obtener por id)
+    https://apirestlaravel-production.up.railway.app/api/articulo/{id}
+PUT
+     https://apirestlaravel-production.up.railway.app/api/articulo/{id}
+ 
+    
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
